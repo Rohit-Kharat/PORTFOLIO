@@ -1,3 +1,4 @@
+// full Data 
 export const Bio = {
   name: "Rohit Kharat",
   roles: [
