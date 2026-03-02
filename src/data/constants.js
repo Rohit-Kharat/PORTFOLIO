@@ -160,6 +160,16 @@ export const education = [
 export const projects = [
   {
     id: 11,
+    title: "SnapSphere Social Media APP",
+    description:
+      "Get Connected With Friend and Explore the World",
+    image:
+      "https://www.google.com/imgres?q=social%20media%20images&imgurl=https%3A%2F%2Fwww.undp.org%2Fsites%2Fg%2Ffiles%2Fzskgke326%2Ffiles%2F2023-08%2Fundp-rbec-socialmedia-social-illustration-omer-sayed-2023-edited.jpg&imgrefurl=https%3A%2F%2Fwww.undp.org%2Feurasia%2Fblog%2Fsocial-media-tips-for-nonprofit&docid=Ylx1ffOFGA79qM&tbnid=J_3LQf3mBn4WJM&vet=12ahUKEwj4gI__yICTAxVdzzgGHVeRDygQnPAOegQIHBAB..i&w=3600&h=1800&hcb=2&ved=2ahUKEwj4gI__yICTAxVdzzgGHVeRDygQnPAOegQIHBAB",
+    category: "web app",
+    github: "https://github.com/Rohit-Kharat/SnapSphere",
+  },
+  {
+    id: 11,
     title: "Stock Market Prediction Model",
     description:
       "To enhance predictive accuracy by analysing the current market and providing future value using AI and Machine...",
