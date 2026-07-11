@@ -196,6 +196,14 @@ export const projects = [
       "https://www.shutterstock.com/image-vector/blockchain-technology-low-poly-blue-600nw-2490444773.jpg",
     github: "https://github.com/Rohit-Kharat/NEXCODE",
   },
- 
+ {
+    id: 0,
+    title: "Agrovision-AI-Assisted-Geospatial-Monitoring-Platform",
+    description:
+      "-An AI-powered geospatial agriculture platform that leverages 🛰️ satellite imagery, 🌱 NDVI analysis, and 🤖 LLM-driven insights to monitor crop health, soil conditions, and vegetation trends for smarter farming decisions. ✨ Features 🛰️ Satellite-Based Crop Health Monitoring 🌱 NDVI Vegetation Analysis 🗺️ Interactive GIS Dashboard.",
+    image:
+      "https://www.google.com/imgres?q=satellite%20monitoring%20agriculture&imgurl=https%3A%2F%2Fgeosciencesi.com%2Fwp-content%2Fuploads%2F2025%2F06%2Fhow-to-use-Satellite-Remote-Sensing-for-Agriculture.jpg&imgrefurl=https%3A%2F%2Fgeosciencesi.com%2Fhow-to-use-satellite-remote-sensing-for-agriculture%2F&docid=wa3RLwBm62j6jM&tbnid=pNYyTXCrVAOzMM&vet=12ahUKEwjpqbG77smVAxW-aHADHSk6ABIQnPAOegQINBAA..i&w=751&h=500&hcb=2&ved=2ahUKEwjpqbG77smVAxW-aHADHSk6ABIQnPAOegQINBAA",
+    github: "https://github.com/Rohit-Kharat/Agrovision-AI-Assisted-Geospatial-Monitoring-Platform",
+  },
 ];
 
