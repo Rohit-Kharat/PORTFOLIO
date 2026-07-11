@@ -133,7 +133,7 @@ export const education = [
     img: "https://cdn.adscientificindex.com/logos/19265.jpg",
     school: "Jspm imperial college of engineering and research ,Pune",
     date: "Oct 2022 - Sep 2026  ",
-    grade: "7.02 CGPA",
+    grade: "7.62 CGPA",
     desc: "I am currently pursuing a Bachelor's degree in Electronic and Telecommuncation Engineering at Jspm imperial college of engineering and research,Wagholi,Pune. I have completed 4 semesters and have a CGPA of 7.02. I am also a member of the Google Developers Student Club (GDSC), where I am learning and working on exciting projects with a team of talented developers.",
     degree: "Bachelor of Engineering - B.E., Electronic and Telecommuncation Engineering",
   },
