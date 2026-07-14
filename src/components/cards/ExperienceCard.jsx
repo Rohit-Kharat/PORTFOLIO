@@ -30,6 +30,19 @@ const Role = styled.div`
     font-size: 14px;
   }
 `;
+const AchievementImage = styled.img`
+  width: 120px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-top: 4px;
+  border: 1px solid rgba(255,255,255,0.15);
+  background: rgba(255,255,255,0.04);
+  @media only screen and (max-width: 768px) {
+    width: 90px;
+    height: 50px;
+  }
+`
 const Company = styled.div`
   font-size: 14px;
   font-weight: 500px;
@@ -112,6 +125,7 @@ const ExperienceCard = ({ experience }) => {
       }}
       date={experience?.date}
     >
+      <AchievementImage src={experience?.AchievementImage}/>
       <Top>
         <Image src={experience?.img} />
         <Body>
@@ -129,7 +143,7 @@ const ExperienceCard = ({ experience }) => {
               <b>Skills</b>
               <ItemWrapper>
                 {experience?.skills?.map((skill, index) => (
-                  <Skill>• {skill}</Skill>
+                  <Skill>• {skill.name}</Skill>
                 ))}
               </ItemWrapper>
             </Skills>

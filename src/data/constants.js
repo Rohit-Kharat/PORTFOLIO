@@ -157,6 +157,28 @@ export const education = [
   },
 ];
 
+export const experience = [
+  {
+    id:1,
+    AchievementImage:"/image/achievement.jpg",
+    role:"Full stack developer",
+    company:"TATA MOTORS",
+    date:"Dec-2024 - Feb-2025",
+    img:"https://i.pinimg.com/1200x/da/3f/12/da3f128e7875dda438b67d4c35bee549.jpg",
+    desc:" Delivered a production-grade TPM & Kaizen Management Platform, digitising 10+ maintenance and continuous improvement workflows in a live manufacturing environment — demonstrating ability to deliver AI/data-adjacent systems in production. Designed and implemented 15+ REST APIs with JWT-based role-access control (3+ roles), following modular design and secure coding practices for 25+ active users. • Built automated ETL-style reporting pipeline processing structured data with images and metadata, reducing manual effort by ~60%, improving issue traceability by ~70%, and cutting response time by ~40%. ",
+    skills:[
+      {
+        name:"React"
+      },{
+        name:"MongoDB"
+      },{
+        name:"Node[express.js]"
+      },{
+        name:"RestAPI"
+      },
+    ],
+  },
+]
 export const projects = [
   {
     id: 11,
@@ -164,7 +186,7 @@ export const projects = [
     description:
       "Get Connected With Friend and Explore the World",
     image:
-      "https://www.google.com/imgres?q=social%20media%20images&imgurl=https%3A%2F%2Fwww.undp.org%2Fsites%2Fg%2Ffiles%2Fzskgke326%2Ffiles%2F2023-08%2Fundp-rbec-socialmedia-social-illustration-omer-sayed-2023-edited.jpg&imgrefurl=https%3A%2F%2Fwww.undp.org%2Feurasia%2Fblog%2Fsocial-media-tips-for-nonprofit&docid=Ylx1ffOFGA79qM&tbnid=J_3LQf3mBn4WJM&vet=12ahUKEwj4gI__yICTAxVdzzgGHVeRDygQnPAOegQIHBAB..i&w=3600&h=1800&hcb=2&ved=2ahUKEwj4gI__yICTAxVdzzgGHVeRDygQnPAOegQIHBAB",
+      "https://bernardmarr.com/wp-content/uploads/2022/02/What-Is-Social-Media-2.0-Simple-Explanation-And-Examples.jpg",
     category: "web app",
     github: "https://github.com/Rohit-Kharat/SnapSphere",
   },
@@ -202,7 +224,7 @@ export const projects = [
     description:
       "-An AI-powered geospatial agriculture platform that leverages 🛰️ satellite imagery, 🌱 NDVI analysis, and 🤖 LLM-driven insights to monitor crop health, soil conditions, and vegetation trends for smarter farming decisions. ✨ Features 🛰️ Satellite-Based Crop Health Monitoring 🌱 NDVI Vegetation Analysis 🗺️ Interactive GIS Dashboard.",
     image:
-      "https://www.google.com/imgres?q=satellite%20monitoring%20agriculture&imgurl=https%3A%2F%2Fgeosciencesi.com%2Fwp-content%2Fuploads%2F2025%2F06%2Fhow-to-use-Satellite-Remote-Sensing-for-Agriculture.jpg&imgrefurl=https%3A%2F%2Fgeosciencesi.com%2Fhow-to-use-satellite-remote-sensing-for-agriculture%2F&docid=wa3RLwBm62j6jM&tbnid=pNYyTXCrVAOzMM&vet=12ahUKEwjpqbG77smVAxW-aHADHSk6ABIQnPAOegQINBAA..i&w=751&h=500&hcb=2&ved=2ahUKEwjpqbG77smVAxW-aHADHSk6ABIQnPAOegQINBAA",
+      "https://geosciencesi.com/wp-content/uploads/2025/06/how-to-use-Satellite-Remote-Sensing-for-Agriculture.jpg",
     github: "https://github.com/Rohit-Kharat/Agrovision-AI-Assisted-Geospatial-Monitoring-Platform",
   },
 ];
