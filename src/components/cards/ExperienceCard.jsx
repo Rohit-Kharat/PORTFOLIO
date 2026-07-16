@@ -31,8 +31,8 @@ const Role = styled.div`
   }
 `;
 const AchievementImage = styled.img`
-  width: 120px;
-  height: 60px;
+  width: 240px;
+  height: 140px;
   display: block;
   margin: 8px auto;
   object-fit: cover;
@@ -40,8 +40,15 @@ const AchievementImage = styled.img`
   border: 1px solid rgba(255,255,255,0.15);
   background: rgba(255,255,255,0.04);
   cursor: pointer;
-  transition: opacity 260ms ease;
+  transition: opacity 260ms ease, transform 160ms ease;
   opacity: ${(props) => (props.$visible ? 1 : 0)};
+  &:active {
+    transform: scale(0.98);
+  }
+  @media only screen and (max-width: 992px) {
+    width: 180px;
+    height: 110px;
+  }
   @media only screen and (max-width: 768px) {
     width: 90px;
     height: 50px;
