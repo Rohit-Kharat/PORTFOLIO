@@ -160,7 +160,7 @@ export const education = [
 export const experience = [
   {
     id:1,
-    AchievementImage:"/image/achievement.jpg",
+    AchievementImage: process.env.PUBLIC_URL + "/image/achievement.jpg",
     role:"Full stack developer",
     company:"TATA MOTORS",
     date:"Dec-2024 - Feb-2025",
