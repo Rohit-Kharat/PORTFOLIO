@@ -160,7 +160,12 @@ export const education = [
 export const experience = [
   {
     id:1,
-    AchievementImage: process.env.PUBLIC_URL + "/image/achievement.jpg",
+    // Provide an array of images. First item can be a public asset; add more files
+    // to `public/image/` or use external URLs. Example uses one public image and a placeholder.
+    AchievementImage: [
+      process.env.PUBLIC_URL + "/image/achievement.jpg",
+      "https://via.placeholder.com/480x240.png?text=Achievement+2",
+    ],
     role:"Full stack developer",
     company:"TATA MOTORS",
     date:"Dec-2024 - Feb-2025",

@@ -1,5 +1,5 @@
 //Experience 
-import React from "react";
+import React, { useState } from "react";
 import { VerticalTimelineElement } from "react-vertical-timeline-component";
 import styled from "styled-components";
 
@@ -33,16 +33,20 @@ const Role = styled.div`
 const AchievementImage = styled.img`
   width: 120px;
   height: 60px;
+  display: block;
+  margin: 8px auto;
   object-fit: cover;
   border-radius: 10px;
-  margin-top: 4px;
   border: 1px solid rgba(255,255,255,0.15);
   background: rgba(255,255,255,0.04);
+  cursor: pointer;
+  transition: opacity 260ms ease;
+  opacity: ${(props) => (props.$visible ? 1 : 0)};
   @media only screen and (max-width: 768px) {
     width: 90px;
     height: 50px;
   }
-`
+`;
 const Company = styled.div`
   font-size: 14px;
   font-weight: 500px;
@@ -98,6 +102,22 @@ const ItemWrapper = styled.div`
 `;
 
 const ExperienceCard = ({ experience }) => {
+  const images = Array.isArray(experience?.AchievementImage)
+    ? experience.AchievementImage
+    : [experience?.AchievementImage].filter(Boolean);
+  const [index, setIndex] = useState(0);
+  const [visible, setVisible] = useState(true);
+
+  const handleImageClick = () => {
+    // fade out
+    setVisible(false);
+    setTimeout(() => {
+      setIndex((i) => (i + 1) % images.length);
+      // fade in
+      setVisible(true);
+    }, 260);
+  };
+
   return (
     <VerticalTimelineElement
       icon={
@@ -125,7 +145,14 @@ const ExperienceCard = ({ experience }) => {
       }}
       date={experience?.date}
     >
-      <AchievementImage src={experience?.AchievementImage}/>
+      {images.length > 0 && (
+        <AchievementImage
+          src={images[index]}
+          onClick={handleImageClick}
+          $visible={visible}
+          alt="achievement"
+        />
+      )}
       <Top>
         <Image src={experience?.img} />
         <Body>
