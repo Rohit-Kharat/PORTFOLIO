@@ -164,7 +164,8 @@ export const experience = [
     // to `public/image/` or use external URLs. Example uses one public image and a placeholder.
     AchievementImage: [
       process.env.PUBLIC_URL + "/image/achievement.jpg",
-      "https://via.placeholder.com/480x240.png?text=Achievement+2",
+      process.env.PUBLIC_URL + "/image/achievement2.jpg",
+      process.env.PUBLIC_URL + "/image/achievement3.jpg",
     ],
     role:"Full stack developer",
     company:"TATA MOTORS",
