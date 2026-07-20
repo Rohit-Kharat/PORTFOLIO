@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/BioDATA/static/css/main.58a0c615.css",
-    "main.js": "/BioDATA/static/js/main.b0bc7372.js",
+    "main.js": "/BioDATA/static/js/main.16ca6e5f.js",
     "static/media/HeroImage.jpg": "/BioDATA/static/media/HeroImage.ff75c7a199a1b4ba62bd.jpg",
     "index.html": "/BioDATA/index.html",
     "main.58a0c615.css.map": "/BioDATA/static/css/main.58a0c615.css.map",
-    "main.b0bc7372.js.map": "/BioDATA/static/js/main.b0bc7372.js.map"
+    "main.16ca6e5f.js.map": "/BioDATA/static/js/main.16ca6e5f.js.map"
   },
   "entrypoints": [
     "static/css/main.58a0c615.css",
-    "static/js/main.b0bc7372.js"
+    "static/js/main.16ca6e5f.js"
   ]
 }
